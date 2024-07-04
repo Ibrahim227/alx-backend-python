@@ -1,4 +1,4 @@
-#!/usr/binenv python3
+#!/usr/bin/env python3
 """Import module/lib"""
 from typing import List, Union
 
