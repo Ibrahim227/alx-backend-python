@@ -3,12 +3,12 @@
 from typing import Tuple, List
 
 
-def zoom_array(lst: Tuple, factor: int = 2) -> List:
+def zoom_array(lst: Tuple, factor: int = 2) -> Tuple:
     """apply any necessary changes."""
-    zoomed_in: Tuple = [
+    zoomed_in: Tuple = tuple(
         item for item in lst
         for i in range(factor)
-    ]
+    )
     return zoomed_in
 
 
