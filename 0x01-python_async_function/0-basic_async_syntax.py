@@ -3,7 +3,7 @@
 import random
 
 
-async def wait_random(max_delay: int = 10) -> int:
+async def wait_random(max_delay: int = 10):
     """ takes in an integer argument and eventually  returns it."""
-    r = await random.random(0, max_delay)
-    return r
+    await rando
+    return random(max_delay)
