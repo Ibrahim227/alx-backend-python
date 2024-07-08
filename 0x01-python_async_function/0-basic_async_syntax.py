@@ -5,5 +5,5 @@ import random
 
 async def wait_random(max_delay: int = 10) -> int:
     """ takes in an integer argument and eventually  returns it."""
-    r = await random(0, max_delay)
+    r = await random.random(0, max_delay)
     return r
